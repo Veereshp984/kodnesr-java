@@ -7,7 +7,7 @@ public class pattern4 {
                 System.out.print(" ");
             }
             for(int j=1;j<=i;j++){
-                System.out.print("*");
+                System.out.print(" *");
             }
             System.out.println();
         }
@@ -16,7 +16,7 @@ public class pattern4 {
                 System.out.print(" ");
             }
             for(int j=1;j<=5-i+1;j++){
-                System.out.print("*");
+                System.out.print(" *");
             }
             System.out.println();
         }
