@@ -23,13 +23,18 @@ public class LinkedListOperations {
                 tail = newNode;
             }
         }
-
-
+        head = head.next;
         Node1 temp = head;
+
+        while(temp.next.next != null){
+            temp = temp.next;
+        }
+        temp.next = null;
+
+
+
         while(temp != null){
-            if(temp.data == 30){
                 System.out.print(temp.data + " ");
-            }
             temp = temp.next;
         }
     }
